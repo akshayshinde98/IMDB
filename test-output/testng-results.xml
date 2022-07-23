@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-23T15:05:18 IST" name="Suite" finished-at="2022-07-23T15:05:40 IST" duration-ms="22463">
+    <groups>
+    </groups>
+    <test started-at="2022-07-23T15:05:18 IST" name="Testng" finished-at="2022-07-23T15:05:40 IST" duration-ms="22463">
+      <class name="com.TestClass.TestClassIMDB">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:com.TestClass.TestClassIMDB@59505b48]" started-at="2022-07-23T15:05:18 IST" name="BrowserLaunch" finished-at="2022-07-23T15:05:30 IST" duration-ms="11686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="ExtractMovieData()[pri:0, instance:com.TestClass.TestClassIMDB@59505b48]" started-at="2022-07-23T15:05:30 IST" name="ExtractMovieData" finished-at="2022-07-23T15:05:32 IST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtractMovieData -->
+      </class> <!-- com.TestClass.TestClassIMDB -->
+      <class name="com.TestClass.TestClassWIKI">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:com.TestClass.TestClassWIKI@60099951]" started-at="2022-07-23T15:05:32 IST" name="BrowserLaunch" finished-at="2022-07-23T15:05:40 IST" duration-ms="7936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="ExtractMovieData()[pri:0, instance:com.TestClass.TestClassWIKI@60099951]" started-at="2022-07-23T15:05:40 IST" name="ExtractMovieData" finished-at="2022-07-23T15:05:40 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtractMovieData -->
+      </class> <!-- com.TestClass.TestClassWIKI -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>
